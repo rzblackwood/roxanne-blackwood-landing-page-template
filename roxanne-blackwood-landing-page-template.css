@@ -1,0 +1,28 @@
+
+body {
+    margin: 0;
+    font-weight: 300;
+}
+
+#topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+
+#topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 30px;
+    text-decoration: none;
+    font-size: 17px;
+
+}
+
+h2 {
+    font-weight: 500;
+}
+
+#some-content {
+    padding-left: 16px;
+}
