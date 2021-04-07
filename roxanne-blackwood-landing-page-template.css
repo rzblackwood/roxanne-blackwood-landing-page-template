@@ -17,9 +17,14 @@ body {
     text-decoration: none;
     font-size: 17px;
 }
+
+#nav-taquito {
+    font-weight: 500;
+}
 #some-content {
     display: flex;
     justify-content: start;
+    align-items: center;
 }
 h2 {
     font-weight: 500;
