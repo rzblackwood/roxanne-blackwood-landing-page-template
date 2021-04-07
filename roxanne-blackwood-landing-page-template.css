@@ -20,16 +20,21 @@ body {
 
 #nav-taquito {
     font-weight: 500;
+    font-size: 30px;
+    padding: 10px;
+    font-family: 'Dancing Script', cursive;
+}
+#header-taquito {
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
 }
 #some-content {
     display: flex;
     justify-content: start;
     align-items: center;
+    justify-content: center;
+    padding-left: 16px;
 }
 h2 {
     font-weight: 500;
-}
-
-#some-content {
-    padding-left: 16px;
 }
