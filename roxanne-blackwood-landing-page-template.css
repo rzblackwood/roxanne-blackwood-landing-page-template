@@ -16,9 +16,11 @@ body {
     padding: 20px 30px;
     text-decoration: none;
     font-size: 17px;
-
 }
-
+#some-content {
+    display: flex;
+    justify-content: start;
+}
 h2 {
     font-weight: 500;
 }
