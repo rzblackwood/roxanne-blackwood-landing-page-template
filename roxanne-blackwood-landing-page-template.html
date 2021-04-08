@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="roxanne-blackwood-landing-page-template.css">
     <!--Google Fonts-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap" rel="stylesheet">
 </head>
 <body>
 <!--Top section of landing page -->
@@ -26,27 +26,66 @@
   </nav>
       <div id="some-content">
             <img src="images/mrtaquito_logo_small.jpg" class="img-fluid" alt="">
-            <h1><span id="header-taquito">Mr. Taquito</span> Welcomes You!</h1>
+            <span id="header-taquito">Mr. Taquito Welcomes You!</span>
      </div>
      <!-- Don't change above this line -->    
      <div id="main-content"><!--Contains video & main page content-->
         <div id="yummy-video">
         <iframe src="https://spark.adobe.com/video/WsgZ2HDN1iqAN/embed"  width="960" height="540" frameborder="0" allowfullscreen></iframe>    
         </div><!--Closing div for video styling-->
-        <div id="store-info">
-            <h2>Located in Ceres, CA</h2>
-            <p>Best Tortas in Town!</p>
-            <h2>Store Hours</h2>
-            <p>Mon-Sat 10am-7:30pm, Sun 10am-6pm</p>
-            <h2>Address</h2>
-            <p>1240 E Whitmore Ave, Ceres, CA 95307</p>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              <h1 class="display-4">Got a craving? <em>We got you!</em></h1>
+              <p class="lead">We are family-owned business serving up crave-worthy tacos, burritos, tortas & more!</p>
+            </div>
+          </div>
+        <div>
+            <ul>
+                <li>Located in Ceres, CA</li>
+                <li>Open Mon-Sat 10am-7:30pm, Sun 10am-6pm</li>
+                <li>Address: 1240 E Whitmore Ave, Ceres, CA 95307</li>
+            </ul>
         </div>
      </div><!--Closing div for video & main page content div -->
+     <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-4"> 
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/GrubHub4_Logo.jpeg" alt="Card image cap" height="250">
+                    <div class="card-body">
+                      <h5 class="card-title">GRUBHUB</h5>
+                      <p class="card-text">Order Mr. Taquito now through GRUBHUB!</p>
+                      <a href="#" class="btn btn-primary">Order</a>
+                    </div>
+                  </div>
+            </div><!--Closing div for column 1 -->
+            <div class="col-12 col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/doordash_red_logo_full_logo.jpeg" alt="Card image cap" height="250"> 
+                    <div class="card-body">
+                      <h5 class="card-title">DOORDASH</h5>
+                      <p class="card-text">Order Mr. Taquito now through DOORDASH!</p>
+                      <a href="#" class="btn btn-primary">Order</a>
+                    </div>
+                  </div>
+            </div><!-- Closing div for column 2 -->
+            <div class="col-12 col-md-4">
+                <div class="card" style="width: 18rem;">
+                    <img class="card-img-top" src="images/Uber Eats logo.png" alt="Card image cap" height="250">
+                    <div class="card-body">
+                      <h5 class="card-title">UberEats</h5>
+                      <p class="card-text">Order Mr. Taquito now through UberEats!</p>
+                      <a href="#" class="btn btn-primary">Order</a>
+                    </div>
+                  </div>
+            </div><!-- Closing div for column 3-->
+        </div><!--Closing div for row-->
+     </div><!--Closing Div for container holding row, columns & cards-->
      <!-- Footer: Leave alone! -->
      <div id="footer-taquito">
         <footer class="footer mt-auto py-3 bg-white">
         <div class="container">
-        <span class="text-muted">Copyright 2021, Mr. Taquito</span>
+        <span class="text-muted">Copyright 2021, Mr. Taquito </span>
         </div>
          </footer>   
     </div>  
