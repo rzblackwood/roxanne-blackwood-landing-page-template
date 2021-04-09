@@ -46,11 +46,13 @@ h1 {
     color: red;
 }
 #form {
-    width: 50%;
+    width: 100%
 
 }
 #signup {
     margin-top: 40px;
+    display: flex;
+    justify-content:center;
 }
 #footer-taquito {
     display: flex;
