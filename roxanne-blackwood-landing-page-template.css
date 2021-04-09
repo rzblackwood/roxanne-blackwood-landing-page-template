@@ -3,6 +3,11 @@ body {
     margin: 0;
     font-weight: 300;
 }
+#nav-container {
+ display: flex;
+ justify-content: center;
+
+}
 #nav-taquito {
     font-weight: 500;
     font-size: 30px;
@@ -30,6 +35,12 @@ h1 {
    display: flex;
    flex-direction: column;
    align-items: center;
+   justify-content: center;
+}
+#jumbotron-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 #number {
     color: red;
@@ -45,7 +56,6 @@ h1 {
     display: flex;
     justify-content: center;
 }
-
 @media (orientation: landscape) {
         h1 {
         color: red;
