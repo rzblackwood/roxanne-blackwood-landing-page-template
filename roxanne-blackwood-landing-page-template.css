@@ -58,12 +58,12 @@ h1 {
     display: flex;
     justify-content: center;
 }
-@media (orientation: landscape) {
+@media (orientation: portrait) {
         h1 {
         color: red;
     }
 }
-@media (orientation: landscape) {
+@media (orientation: portrait) {
     h2 {
     color: darkgreen;
 }
